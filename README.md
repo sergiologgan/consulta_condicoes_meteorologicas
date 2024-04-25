@@ -13,5 +13,23 @@ pip install requests
 ```
 
 + Uma chave API válida do OpenWeatherMap. Você pode obter uma gratuitamente registrando-se no site OpenWeatherMap.
-+ ##Configuração
-Clone o repositório para sua máquina local usando:
++ 
+##Configuração
+1. Clone o repositório para sua máquina local usando:
+```python
+git clone URL_DO_SEU_REPOSITORIO
+```
+2. Navegue até o diretório do projeto.
+3. Substitua api_key no código pela sua chave API pessoal do OpenWeatherMap.
+
+
+## Uso
+Para usar o script, execute-o através do terminal com o seguinte comando:
+```python
+python nome_do_arquivo.py
+```
+Substitua nome_do_arquivo.py pelo nome que você deu ao arquivo do script.
+Digite o nome da cidade quando solicitado e o script exibirá as condições meteorológicas para a localidade especificada.
+
+## Licença
+Especifique aqui o tipo de licença sob a qual seu projeto está disponibilizado, por exemplo, MIT, GPL, etc.

@@ -8,3 +8,4 @@ Para executar este script, você precisará:
 
 + Python 3.x instalado em sua máquina.
 + A biblioteca requests, que pode ser instalada via pip com o comando:
+`pip install requests`

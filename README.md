@@ -11,3 +11,7 @@ Para executar este script, você precisará:
 ```python
 pip install requests
 ```
+
++ Uma chave API válida do OpenWeatherMap. Você pode obter uma gratuitamente registrando-se no site OpenWeatherMap.
++ ##Configuração
+Clone o repositório para sua máquina local usando:

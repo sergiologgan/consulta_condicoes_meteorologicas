@@ -17,7 +17,7 @@ pip install requests
 ## Configuração
 1. Clone o repositório para sua máquina local usando:
 ```python
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/sergiologgan/consulta_condicoes_meteorologicas.git
 ```
 2. Navegue até o diretório do projeto.
 3. Substitua api_key no código pela sua chave API pessoal do OpenWeatherMap.

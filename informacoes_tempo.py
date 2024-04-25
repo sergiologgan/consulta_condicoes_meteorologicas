@@ -1,16 +1,21 @@
+import sys
+import io
 import requests
+
+# Configurar o sys.stdin para usar utf-8
+sys.stdin = io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8')
 
 def obter_informacoes_meteorologicas(cidade, api_key):
     try:
         # URL base da API do OpenWeatherMap
         base_url = "https://api.openweathermap.org/data/2.5/weather"
-
+        
         # Parâmetros para a solicitação GET
         parametros = {
             'q': cidade,
             'appid': api_key,
             'units': 'metric',  # para obter a temperatura em Celsius
-            'lang': 'pt_br'        # para obter a descrição do clima em português
+            'lang': 'pt_br'     # para obter a descrição do clima em português
         }
 
         # Fazer a solicitação GET

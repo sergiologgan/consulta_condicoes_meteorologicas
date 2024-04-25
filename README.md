@@ -28,7 +28,7 @@ Para usar o script, execute-o através do terminal com o seguinte comando:
 ```python
 python informacoes_tempo.py
 ```
-Substitua informacoes_tempo.py pelo nome que você deu ao arquivo do script.
+
 Digite o nome da cidade quando solicitado e o script exibirá as condições meteorológicas para a localidade especificada.
 
 ## Licença

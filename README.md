@@ -14,7 +14,7 @@ pip install requests
 
 + Uma chave API válida do OpenWeatherMap. Você pode obter uma gratuitamente registrando-se no site OpenWeatherMap.
 + 
-##Configuração
+## Configuração
 1. Clone o repositório para sua máquina local usando:
 ```python
 git clone URL_DO_SEU_REPOSITORIO
